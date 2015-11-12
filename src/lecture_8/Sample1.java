@@ -14,10 +14,10 @@ public class Sample1 {
 	}
  	
 	public static void main(String[] args) {
-		
 		try {
-
+			f1();
 		} catch(NullPointerException e) {
+			e.printStackTrace();
 			System.out.println("Eeeee!!!");
 		}
 		System.out.println("exit");
