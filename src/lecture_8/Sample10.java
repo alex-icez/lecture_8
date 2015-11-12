@@ -1,11 +1,13 @@
 package lecture_8;
 
+import java.io.UnsupportedEncodingException;
+
 public class Sample10 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws UnsupportedEncodingException {
 		String str = "авпвапва";
-		bytes b[] = str.getBytes("cp-1251");
-		
+		byte b[] = str.getBytes("cp1251");
+		System.out.println(new String(b, "utf8"));
 		
 
 	}

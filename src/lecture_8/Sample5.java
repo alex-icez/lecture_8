@@ -9,11 +9,9 @@ interface Aa {
 
 public class Sample5 {
 	public static void main(String[] args) {
-		Aa a = new Aa() {
-			{
+		Aa a = new Aa() {{
 				System.out.println("no name construct");
-			}
-		};
+		}};
 		
 		Aa b = new Aa() {
 			public void print() {
