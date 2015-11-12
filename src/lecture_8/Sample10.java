@@ -4,6 +4,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
+import java.net.Socket;
 
 public class Sample10 {
 
@@ -12,7 +13,7 @@ public class Sample10 {
 		byte b[] = str.getBytes("utf-8");
 		System.out.println(new String(b, "cp1251"));
 		
-		
+		Socket s = new Socket("8.8.8.8");
 		InputStreamReader in = new InputStreamReader(new FileInputStream("gfd"), "utf8");
 
 		
