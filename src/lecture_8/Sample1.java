@@ -5,9 +5,7 @@ import java.util.Scanner;
 public class Sample1 {
 
 	public static void f2() {
-		Scanner s = new Scanner(System.in);
-		String str = s.next();
-		int a = Integer.parseInt(str);
+		
 	}
 	
 	public static void f1() {
@@ -15,12 +13,10 @@ public class Sample1 {
 	}
  	
 	public static void main(String[] args) {
-		
-		
-		
-		
 		try {
-			f1();
+			Scanner s = new Scanner(System.in);
+			String str = s.next();
+			int a = Integer.parseInt(str);
 		} catch(NullPointerException e) {
 			e.printStackTrace();
 			System.out.println("Eeeee!!!");
