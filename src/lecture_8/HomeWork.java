@@ -16,6 +16,7 @@ public class HomeWork {
 		BufferedImage out = new BufferedImage(w, h, in.getType());
 		int rs, gs, bs;
 		int xi, yi;
+		int div = (2 * r + 1) * (2 * r + 1);
 		for(int y = 0; y < h; y++) 
 			for(int x = 0; x < w; x++) {
 				rs = gs = bs = 0;
@@ -35,10 +36,10 @@ public class HomeWork {
 						bs += rgb & 0xFF;
 						gs += (rgb >> 8) & 0xFF;
 						rs += (rgb >> 16) & 0xFF;
-						
 					}
 				}
 			}
+			bs /= (2 * r + )
 	}
 
 }
