@@ -1,6 +1,7 @@
 package lecture_8;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 interface Aa {
 	void print();
@@ -20,7 +21,14 @@ public class Sample5 {
 			}
 		};
 		Integer arr[] = {5,1,2,31,32,4,2};
-		Arrays.sort(arr);
+		
+		Comparator<Integer> comp = new Comparator<Integer>() {
+			public int compare(Integer o1, Integer o2) {
+				return (o1 % 4) - (o2 % 4);
+			}
+		};
+		
+		Arrays.sort(arr, comp);
 		
 		
 	}
