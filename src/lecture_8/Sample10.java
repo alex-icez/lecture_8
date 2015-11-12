@@ -15,6 +15,8 @@ public class Sample10 {
 		
 		InputStreamReader in = new InputStreamReader(new FileInputStream("gfd"), "utf8");
 
+		
+		
 	}
 
 }
