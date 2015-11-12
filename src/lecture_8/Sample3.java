@@ -9,7 +9,10 @@ public class Sample3 {
 		for(int i = 0; i < s3.length(); i++)
 			System.out.print(s3.charAt(i) + " ");
 		char arr[] = s3.toCharArray();
+		
 		for(char ch : arr)
 			System.out.print(ch + " ");
+		byte ab[] = s3.getBytes();
+		
 	}
 }
