@@ -11,5 +11,12 @@ public class Sample5 {
 				System.out.println("Dia!!");
 			}
 		};
+		
+		Aa b = new Aa() {
+			public void print() {
+				System.out.println("Dia!!");
+			}
+		};
+		
 	}
 }
