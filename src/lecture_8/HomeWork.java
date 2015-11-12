@@ -44,6 +44,6 @@ public class HomeWork {
 				rs /= div;
 				out.setRGB(x, y, bs | (gs << 8) | (rs << 16));
 			}
+		ImageIO.write(out, "png", new File("out12.png"));
 	}
-
 }
