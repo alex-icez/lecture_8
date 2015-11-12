@@ -17,13 +17,13 @@ public class Sample1 {
 			Scanner s = new Scanner(System.in);
 			String str = s.next();
 			int a = Integer.parseInt(str);
-		} catch(Exception e) {
-			
-		}	catch(NullPointerException e) {
+		} catch(NullPointerException e) {
 			e.printStackTrace();
 			System.out.println("Eeeee!!!");
 		} catch(NumberFormatException e) {
 			
+		} catch(Exception e) {
+			System.out.println("exc");
 		}
 		System.out.println("exit");
 	}
