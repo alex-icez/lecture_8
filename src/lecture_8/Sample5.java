@@ -9,8 +9,9 @@ class Aa {
 public class Sample5 {
 	public static void main(String[] args) {
 		Aa a = new Aa() {
-			
-			
+			void print() {
+				System.out.println("Dia!!");
+			}
 		};
 	}
 }
