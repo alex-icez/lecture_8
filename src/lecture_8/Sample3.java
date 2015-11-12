@@ -35,7 +35,7 @@ public class Sample3 {
 		String s = "  Алгоритм Ахо — и А   Ко расик — алгоритм  23 поиска   подстроки  ";
 		System.out.println(s.replaceAll("—", "#"));
 		System.out.println(s.replaceAll("[а-яА-Я]{2,}", "#"));
-		
+		System.out.println(s.replaceAll("[а-яА-Я]+", "#"));
 		
 		
 		
