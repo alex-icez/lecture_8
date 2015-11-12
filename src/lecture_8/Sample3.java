@@ -38,7 +38,7 @@ public class Sample3 {
 		System.out.println(s.replaceAll("[а-яА-Я]*", "#"));
 		
 		
-		System.out.println("abbb bbb".replaceAll("[\\B", "Z"));
+		System.out.println("abbb bbb".replaceAll("\\b[b]", "Z"));
 		
 		
 		
