@@ -32,6 +32,9 @@ public class HomeWork {
 						if (xi >= w)
 							xi = w - 1;
 						int rgb = in.getRGB(xi, yi);	
+						bs += rgb & 0xFF;
+						gs += (rgb >> 8) & 0xFF;
+						rs += (rgb >> 16) & 0xFF;
 						
 					}
 				}
