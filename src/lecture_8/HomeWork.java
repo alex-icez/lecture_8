@@ -10,7 +10,7 @@ import javax.imageio.ImageIO;
 public class HomeWork {
 
 	public static void main(String[] args) throws IOException {
-		BufferedImage in = ImageIO.read(new File("/home/sasha/3244317.jpg"));
+		BufferedImage in = ImageIO.read(new File("/home/sasha/Картинки/1--69/39.jpg"));
 		int w = in.getWidth();
 		int h = in.getHeight();
 		int r = 15;
