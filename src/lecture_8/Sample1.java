@@ -6,7 +6,8 @@ public class Sample1 {
 
 	public static void f2() {
 		Scanner s = new Scanner(System.in);
-		int a = s.nextInt();
+		String str = s.next();
+		int a = Integer.parseInt(str);
 	}
 	
 	public static void f1() {
