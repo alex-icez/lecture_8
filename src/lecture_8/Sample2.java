@@ -1,6 +1,8 @@
 package lecture_8;
 
 class MyExeption extends Exception {
+	
+	
 }
 
 
