@@ -32,7 +32,11 @@ public class Sample3 {
 		System.out.println(Arrays.toString("ab ac cc abc bb".split(" ")));
 		
 		
-		String s = "Алгоритм Ахо — Корасик — алгоритм поиска подстроки";
+		String s = "  Алгоритм Ахо — Корасик — алгоритм  23 поиска   подстроки  ";
+		System.out.println(s.replaceAll(" ", "#"));
+		
+		
+		
 		
 		
 		
