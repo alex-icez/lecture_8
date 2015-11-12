@@ -21,12 +21,16 @@ public class HomeWork {
 				rs = gs = bs = 0;
 				for(int i = y - r; i <= y + r; i++) {
 					yi = i;
+					if (yi < 0)
+						yi = 0;
+					if (yi >= h)
+						yi = h - 1;
 					for(int j = x - r; j <= x + r; j++) {
 						xi = j;
-						
 						if (xi < 0)
 							xi = 0;
 						if (xi >= w)
+							xi = w - 1;
 							
 						
 					}
