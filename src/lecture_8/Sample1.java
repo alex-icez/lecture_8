@@ -20,6 +20,8 @@ public class Sample1 {
 		} catch(NullPointerException e) {
 			e.printStackTrace();
 			System.out.println("Eeeee!!!");
+		} catch(NumberFormatException e) {
+			
 		}
 		System.out.println("exit");
 	}
