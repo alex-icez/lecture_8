@@ -13,8 +13,12 @@ public class HomeWork {
 		int h = in.getHeight();
 		int w = in.getWidth();
 		int r = 15;
+		for(int y = 0; y < h; y++) 
+			for(int x = 0; x < w; x++) {
 		
-
+		
+		
+			}
 	}
 
 }
