@@ -42,7 +42,7 @@ public class HomeWork {
 				bs /= div;
 				gs /= div;
 				rs /= div;
-				out.setRGB(x, y, bs + (gs << 8) + (rs << 16));
+				out.setRGB(x, y, bs | (gs << 8) | (rs << 16));
 			}
 	}
 
