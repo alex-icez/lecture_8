@@ -15,11 +15,15 @@ public class HomeWork {
 		int r = 15;
 		BufferedImage out = new BufferedImage(w, h, in.getType());
 		int rs, gs, bs;
+		int xi, yi;
 		for(int y = 0; y < h; y++) 
 			for(int x = 0; x < w; x++) {
 				rs = gs = bs = 0;
-		
-		
+				for(int i = y - r; i <= y + r; i++)
+					for(int j = x - r; j <= x + r; j++) {
+							
+						
+					}
 			}
 	}
 
