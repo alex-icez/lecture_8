@@ -29,7 +29,7 @@ public class Sample3 {
 				.substring(2, 4)
 				.concat("csdf"));
 		
-		System.out.println("      esfse  fwe  ".trim());
+		System.out.println(Arrays.toString("ab ac cc abc bb".split(" ")));
 		
 		
 		
