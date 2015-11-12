@@ -18,7 +18,7 @@ public class Sample3 {
 		byte ab[] = (s3 + "саша").getBytes();
 		System.out.println(Arrays.toString(ab));
 		
-		System.out.println(s1.equals(s2));
-		
+		System.out.println(s1.startsWith("ab"));
+		System.out.println(s1.endsWith("bc"));
 	}
 }
