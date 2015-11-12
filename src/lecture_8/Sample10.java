@@ -11,7 +11,7 @@ public class Sample10 {
 		System.out.println(new String(b, "cp1251"));
 		
 		
-		InputStreamReader in = new InputStreamReader(new );
+		InputStreamReader in = new InputStreamReader(new FileInputStream("gfd"));
 
 	}
 
