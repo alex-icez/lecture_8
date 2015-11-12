@@ -13,7 +13,7 @@ public class HomeWork {
 		BufferedImage in = ImageIO.read(new File("/home/sasha/Картинки/1--69/39.jpg"));
 		int w = in.getWidth();
 		int h = in.getHeight();
-		int r = 15;
+		int r = 25;
 		BufferedImage out = new BufferedImage(w, h, in.getType());
 		int rs, gs, bs;
 		int xi, yi;
