@@ -25,7 +25,7 @@ public class Sample3 {
 		System.out.println("ababbbb bbbb bbb".indexOf(" bbb", 8));
 		
 		
-		System.out.println("sashaaa".substring(2, 4));
+		System.out.println("sashaaa".substring(2, 4).concat("csdf"));
 		
 	}
 }
