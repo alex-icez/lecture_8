@@ -1,5 +1,7 @@
 package lecture_8;
 
+import java.util.Arrays;
+
 public class Sample3 {
 	public static void main(String args[]) {
 		String s1 = "abc";
@@ -12,7 +14,9 @@ public class Sample3 {
 		
 		for(char ch : arr)
 			System.out.print(ch + " ");
+		System.out.println();
 		byte ab[] = s3.getBytes();
+		System.out.println(Arrays.toString(ab));
 		
 	}
 }
