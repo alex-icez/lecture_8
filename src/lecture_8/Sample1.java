@@ -17,7 +17,9 @@ public class Sample1 {
 			Scanner s = new Scanner(System.in);
 			String str = s.next();
 			int a = Integer.parseInt(str);
-		} catch(NullPointerException e) {
+		} catch(Exception e) {
+			
+		}	catch(NullPointerException e) {
 			e.printStackTrace();
 			System.out.println("Eeeee!!!");
 		} catch(NumberFormatException e) {
