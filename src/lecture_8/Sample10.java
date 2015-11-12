@@ -16,6 +16,8 @@ public class Sample10 {
 		System.out.println(new String(b, "cp1251"));
 		
 		Socket s = new Socket("8.8.8.8", 80);
+		s.getInputStream();
+		s.getOutputStream();
 		InputStreamReader in = new InputStreamReader(new FileInputStream("gfd"), "utf8");
 
 		
