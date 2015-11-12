@@ -6,7 +6,6 @@ class A {
 	final void print() {
 
 	}
-
 }
 
 class B extends A {
