@@ -34,7 +34,7 @@ public class Sample3 {
 		
 		String s = "  Алгоритм Ахо — Аи Корасик — алгоритм  23 поиска   подстроки  ";
 		System.out.println(s.replaceAll("—", "#"));
-		System.out.println(s.replaceAll("[Аи]", "#"));
+		System.out.println(s.replaceAll("[А-Я]", "#"));
 		
 		
 		
