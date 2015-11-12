@@ -17,7 +17,7 @@ public class HomeWork {
 		int rs, gs, bs;
 		for(int y = 0; y < h; y++) 
 			for(int x = 0; x < w; x++) {
-		
+				rs = gs = bs = 0;
 		
 		
 			}
