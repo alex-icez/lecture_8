@@ -5,7 +5,6 @@ public class Sample3 {
 		String s1 = "abc";
 		String s2 = "abc";
 		String s3 = s1 + s2;
-
-		System.out.println(s3);
+		System.out.println(s3.charAt(2));
 	}
 }
