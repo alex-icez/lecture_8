@@ -10,8 +10,8 @@ interface Aa {
 public class Sample5 {
 	public static void main(String[] args) {
 		Aa a = new Aa() {
-			public void print() {
-				System.out.println("Dia!!");
+			{
+				System.out.println("no name construct");
 			}
 		};
 		
@@ -27,6 +27,9 @@ public class Sample5 {
 				return (o1 % 4) - (o2 % 4);
 			}
 		};
+		
+		
+		
 		
 		Arrays.sort(arr, comp);
 		
