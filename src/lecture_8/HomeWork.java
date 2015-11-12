@@ -31,7 +31,7 @@ public class HomeWork {
 							xi = 0;
 						if (xi >= w)
 							xi = w - 1;
-							
+						int rgb = in.getRGB(xi, yi);	
 						
 					}
 				}
