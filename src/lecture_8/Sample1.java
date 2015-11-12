@@ -6,11 +6,11 @@ public class Sample1 {
 
 	public static void main(String[] args) {
 		Scanner s = null;
-		//try {
+		try {
 			int a = s.nextInt();
-		//} catch(NullPointerException e) {
+		} catch(NullPointerException e) {
 			System.out.println("Eeeee!!!");
-		//}
+		}
 		System.out.println("exit");
 	}
 
