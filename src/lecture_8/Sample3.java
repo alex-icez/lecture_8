@@ -32,9 +32,9 @@ public class Sample3 {
 		System.out.println(Arrays.toString("ab ac cc abc bb".split(" ")));
 		
 		
-		String s = "  Алгоритм Ахо — А   и Ко расик — алгоритм  23 поиска   подстроки  ";
+		String s = "  Алгоритм Ахо — и А   Ко расик — алгоритм  23 поиска   подстроки  ";
 		System.out.println(s.replaceAll("—", "#"));
-		System.out.println(s.replaceAll("[а-яА-Я]{2}", "#"));
+		System.out.println(s.replaceAll("[а-яА-Я]{2,}", "#"));
 		
 		
 		
