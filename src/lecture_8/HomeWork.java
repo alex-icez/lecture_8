@@ -1,5 +1,6 @@
 package lecture_8;
 
+import java.awt.Color;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
@@ -41,6 +42,7 @@ public class HomeWork {
 				bs /= div;
 				gs /= div;
 				rs /= div;
+				out.setRGB(x, y, new Color(rs, gs, bs).getRGB());
 			}
 			
 	}
