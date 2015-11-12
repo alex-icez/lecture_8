@@ -42,7 +42,11 @@ public class Sample3 {
 		
 		
 		StringBuilder sb = new StringBuilder();
-		
+		sb.append(432);
+		sb.append("Сашаа");
+		sb.append(432432L);
+		sb.reverse();
+		System.out.println(sb.toString());
 		
 		
 		
