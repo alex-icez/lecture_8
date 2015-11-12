@@ -8,7 +8,7 @@ public class Sample1 {
 		Scanner s = null;
 		
 		
-		
+		int a = s.nextInt();
 
 	}
 
