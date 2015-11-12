@@ -16,11 +16,6 @@ public class Sample1 {
 	public static void main(String[] args) {
 		try {
 			f1();
-			class A { 
-				
-			}
-			
-			
 		} catch(NullPointerException e) {
 			e.printStackTrace();
 			System.out.println("Eeeee!!!");
