@@ -6,10 +6,11 @@ public class Sample1 {
 
 	public static void main(String[] args) {
 		Scanner s = null;
-		
-		
-		int a = s.nextInt();
-
+		try {
+			int a = s.nextInt();
+		} catch(NullPointerException e) {
+			
+		}
 	}
 
 }
