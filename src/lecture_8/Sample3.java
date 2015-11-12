@@ -2,6 +2,21 @@ package lecture_8;
 
 import java.util.Arrays;
 
+
+final class A {
+
+
+}
+
+class B extends A {
+	
+}
+
+
+
+
+
+
 public class Sample3 {
 	public static void main(String args[]) {
 		String s1 = "abc";
