@@ -12,10 +12,8 @@ public class Sample2 {
 	static int read() throws MyException {
 		Scanner s = new Scanner(System.in);
 		int res = s.nextInt();
-		if (res == 10) {
-			MyException ex = new MyException();
-			throw ex;
-		}
+		if (res == 10) 
+			throw new MyException();
 		return res;
 	}
 	
