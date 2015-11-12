@@ -20,5 +20,8 @@ public class Sample3 {
 		
 		System.out.println(s1.startsWith("ab"));
 		System.out.println(s1.endsWith("bc"));
+		System.out.println("ab".compareTo("ac"));
+		
+		
 	}
 }
