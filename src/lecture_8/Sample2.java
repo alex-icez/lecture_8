@@ -2,7 +2,7 @@ package lecture_8;
 
 import java.util.Scanner;
 
-class MyException extends Exception {
+class MyException extends Throwable {
 	int res;
 	public MyException(int res) {
 		this.res = res;
