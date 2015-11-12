@@ -14,7 +14,7 @@ public class Sample2 {
 		int res = s.nextInt();
 		if (res == 10) {
 			MyException ex = new MyException();
-			
+			throw ex;
 		}
 	}
 	
