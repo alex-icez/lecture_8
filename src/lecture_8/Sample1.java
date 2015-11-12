@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Sample1 {
 
 	public static void f2() {
-		Scanner s = null;
+		Scanner s = new Scanner(System.in);
 		int a = s.nextInt();
 	}
 	
@@ -14,6 +14,10 @@ public class Sample1 {
 	}
  	
 	public static void main(String[] args) {
+		
+		
+		
+		
 		try {
 			f1();
 		} catch(NullPointerException e) {
