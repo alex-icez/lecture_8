@@ -38,8 +38,11 @@ public class HomeWork {
 						rs += (rgb >> 16) & 0xFF;
 					}
 				}
+				bs /= div;
+				gs /= div;
+				rs /= div;
 			}
-			bs /= (2 * r + )
+			
 	}
 
 }
