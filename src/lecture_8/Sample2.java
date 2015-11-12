@@ -20,8 +20,11 @@ public class Sample2 {
 	}
 	
 	public static void main(String[] args) {
-		read();
-
+		try {
+			read();
+		} catch (MyException e) {
+			e.printStackTrace();
+		}
 	}
 
 }
