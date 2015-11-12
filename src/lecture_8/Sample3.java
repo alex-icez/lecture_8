@@ -15,7 +15,7 @@ public class Sample3 {
 		for(char ch : arr)
 			System.out.print(ch + " ");
 		System.out.println();
-		byte ab[] = s3.getBytes();
+		byte ab[] = (s3 + "саша").getBytes();
 		System.out.println(Arrays.toString(ab));
 		
 	}
