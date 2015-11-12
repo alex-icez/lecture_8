@@ -2,20 +2,18 @@ package lecture_8;
 
 import java.util.Arrays;
 
+class A {
+	final void print() {
 
-final class A {
-
+	}
 
 }
 
 class B extends A {
-	
+	void print() {
+		
+	}
 }
-
-
-
-
-
 
 public class Sample3 {
 	public static void main(String args[]) {
@@ -23,49 +21,39 @@ public class Sample3 {
 		String s2 = "abc";
 		String s3 = s1 + s2;
 		System.out.println(s3.charAt(2));
-		for(int i = 0; i < s3.length(); i++)
+		for (int i = 0; i < s3.length(); i++)
 			System.out.print(s3.charAt(i) + " ");
 		char arr[] = s3.toCharArray();
-		
-		for(char ch : arr)
+
+		for (char ch : arr)
 			System.out.print(ch + " ");
 		System.out.println();
 		byte ab[] = (s3 + "саша").getBytes();
 		System.out.println(Arrays.toString(ab));
-		
+
 		System.out.println(s1.startsWith("ab"));
 		System.out.println(s1.endsWith("bc"));
 		System.out.println("ab".compareTo("ab"));
-		
+
 		System.out.println("ababbbb bbbb bbb".indexOf(" bbb", 8));
-		
-		
-		System.out.println("sashaaa"
-				.substring(2, 4)
-				.concat("csdf"));
-		
+
+		System.out.println("sashaaa".substring(2, 4).concat("csdf"));
+
 		System.out.println(Arrays.toString("ab ac cc abc bb".split(" ")));
-		
-		
+
 		String s = "  Алгоритм Ахо — и А   Ко расик — алгоритм  23 поиска   подстроки  ";
 		System.out.println(s.replaceAll("—", "#"));
 		System.out.println(s.replaceAll("[а-яА-Я]{2,}", "#"));
 		System.out.println(s.replaceAll("[а-яА-Я]*", "#"));
-		
-		
+
 		System.out.println("abbb aabb".replaceAll("a(a|b)bb", "Z"));
-		
-		
+
 		StringBuilder sb = new StringBuilder();
 		sb.append(432);
 		sb.append("Сашаа");
 		sb.append(432432L);
 		sb.reverse();
 		System.out.println(sb.toString());
-		
-		
-		
-		
-		
+
 	}
 }
