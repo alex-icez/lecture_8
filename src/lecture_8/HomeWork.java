@@ -10,8 +10,9 @@ public class HomeWork {
 
 	public static void main(String[] args) throws IOException {
 		BufferedImage in = ImageIO.read(new File("/home/sasha/3244317.jpg"));
-		int h = in.getHeight();
 		int w = in.getWidth();
+		int h = in.getHeight();
+		
 		int r = 15;
 		BufferedImage out = new BufferedImage(w, h, in.getType());
 		for(int y = 0; y < h; y++) 
