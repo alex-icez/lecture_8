@@ -22,6 +22,7 @@ public class Sample3 {
 		System.out.println(s1.endsWith("bc"));
 		System.out.println("ab".compareTo("ab"));
 		
+		System.out.println("ababbbb bbbb bbb".indexOf(" bbb"));
 		
 	}
 }
